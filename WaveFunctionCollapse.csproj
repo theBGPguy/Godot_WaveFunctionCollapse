@@ -1,0 +1,9 @@
+﻿<Project Sdk="Godot.NET.Sdk/3.3.0" EnableDefaultCompileItems="false">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+	<RootNamespace>WaveFunctionCollapse</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="addons\godot_wfc_mono\SimpleTiledModel.cs" />
+  </ItemGroup>
+</Project>
